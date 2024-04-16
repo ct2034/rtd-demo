@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'RTD Demo'
+copyright = '2024, ct2034'
+author = 'ct2034'
 
 release = '0.1'
 version = '0.1.0'
@@ -12,11 +12,9 @@ version = '0.1.0'
 # -- General configuration
 
 extensions = [
-    'sphinx.ext.duration',
-    'sphinx.ext.doctest',
-    'sphinx.ext.autodoc',
-    'sphinx.ext.autosummary',
-    'sphinx.ext.intersphinx',
+    'myst_parser',
+    'sphinx-autodoc2',
+
 ]
 
 intersphinx_mapping = {
