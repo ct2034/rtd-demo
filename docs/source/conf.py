@@ -12,10 +12,12 @@ version = '0.1.0'
 # -- General configuration
 
 extensions = [
-    'myst_parser',
-    'autodoc2',
+    'sphinx.ext.autosummary',
     'sphinx.ext.autodoc',
     'sphinx.ext.intersphinx',
+    
+    'myst_parser',
+    'autodoc2',
 ]
 
 intersphinx_mapping = {
