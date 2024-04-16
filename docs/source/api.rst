@@ -4,4 +4,4 @@ API
 .. autosummary::
    :toctree: generated
 
-   rtd-demo-pkg
+   rtd_demo_pkg
