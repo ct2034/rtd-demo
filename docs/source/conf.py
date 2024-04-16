@@ -14,12 +14,14 @@ version = '0.1.0'
 extensions = [
     'myst_parser',
     'autodoc2',
-
+    'sphinx.ext.autodoc',
+    'sphinx.ext.intersphinx',
 ]
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
     'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
+    'networkx': ('https://networkx.org/documentation/stable/', None),
 }
 intersphinx_disabled_domains = ['std']
 

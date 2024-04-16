@@ -12,5 +12,6 @@ Contents
 
 .. toctree::
 
-   usage
+   tutorials
    api
+   networkx_api
