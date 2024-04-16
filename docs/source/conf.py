@@ -13,7 +13,7 @@ version = '0.1.0'
 
 extensions = [
     'myst_parser',
-    'sphinx-autodoc2',
+    'autodoc2',
 
 ]
 
