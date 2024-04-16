@@ -31,3 +31,7 @@ html_theme = 'sphinx_rtd_theme'
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
+
+autodoc2_packages = [
+    "../src/rtd_demo_pkg"
+]
