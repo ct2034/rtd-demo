@@ -16,5 +16,3 @@ Autosummary
 
 .. autosummary:: networkx
     :toctree: _autosummary
-    
-    networkx.Graph
